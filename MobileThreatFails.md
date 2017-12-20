@@ -1,4 +1,4 @@
-#1. Not threat modeling at all
+##1. Not threat modeling at all
 
 The biggest mistake organizations make with mobile threat modeling is simply failing to do it.
 
@@ -12,7 +12,7 @@ Another deterrent is the intricacy of the process. “The complexity lies in the
 
 Solution: Just do it. Threat modeling is a learned skill. The OWASP mobile security project threat model provides a great starting point, with an overview of best practices and methodologies such as STRIDE and DREAD. Familiarize yourself with them and build them into your software development life cycle.
 
-#2. Not using strong authentication
+###2. Not using strong authentication
 
 Many developers equate security with encryption and protecting data from disclosure. But that’s only one part of it. Without strong mobile user authentication, data can still end up in the wrong hands.
 

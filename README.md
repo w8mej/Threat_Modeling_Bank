@@ -1,5 +1,8 @@
 <h1 align="center">Threat Modeling</h1>
 
+##Outcomes
+o Design implications of a threat model
+o Coding constraints based on a threat model
 
 ## Philosophy
 One of the biggest hindrances to widespread adoption of threat modeling is the inability of existing methodologies and tools to scale with rapid code and system changes as part of modern Agile and DevOps culture shifts at enterprises. While applications and systems are inherently built using vetted components based on performance, security and most importantly for business generating functions, threat models for these same applications and systems need to be built from scratch leading to inefficient use of resources.

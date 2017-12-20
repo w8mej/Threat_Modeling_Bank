@@ -1,4 +1,4 @@
-1. Not threat modeling at all
+#1. Not threat modeling at all
 
 The biggest mistake organizations make with mobile threat modeling is simply failing to do it.
 
@@ -12,7 +12,7 @@ Another deterrent is the intricacy of the process. “The complexity lies in the
 
 Solution: Just do it. Threat modeling is a learned skill. The OWASP mobile security project threat model provides a great starting point, with an overview of best practices and methodologies such as STRIDE and DREAD. Familiarize yourself with them and build them into your software development life cycle.
 
-2. Not using strong authentication
+#2. Not using strong authentication
 
 Many developers equate security with encryption and protecting data from disclosure. But that’s only one part of it. Without strong mobile user authentication, data can still end up in the wrong hands.
 
@@ -22,7 +22,7 @@ Unfortunately, many developers misunderstand the authentication process and inad
 
 Solution: In addition to encryption, your threat model should include user authentication that requires each party to prove its identity to the other. This is particularly critical if the data your app transmits is subject to regulatory compliance, such as HIPAA. While no security measure is foolproof, authentication reduces the risk of data being compromised more than encryption alone.
 
-3. Not accounting for encryption keys
+#3. Not accounting for encryption keys
 
 Software encryption is critical for protecting the data used by your app. But that encryption is worthless if the keys that unlock it can be stolen because they’re inadequately protected.
 
@@ -30,7 +30,7 @@ Software encryption is critical for protecting the data used by your app. But th
 
 Solution: Make sure you’re using state-of-the-art encryption. Account for the encryption keys in your threat model, including how long the keys are and how they’re secured.
 
-4. Not using appropriate permissions
+#4. Not using appropriate permissions
 
 As an app becomes more sophisticated, it often requires deeper permissions to carry out tasks it can’t perform on its own. But often these enhanced permissions expose users to increased security risks, so they should never be considered lightly.
 
@@ -40,7 +40,7 @@ While all permissions expose data to some level of risk, certain ones, such as l
 
 Solution: Be judicious. Decide what permissions your app needs and avoid asking for access to features, data, or services that aren't actually necessary.
 
-5. Not securing network communications
+#5. Not securing network communications
 
 Thanks to mobile carrier data caps and the ubiquity of “free Wi-Fi,” it’s expected that mobile devices will be used on unprotected networks. Using SSL/TLS to encrypt the data in transit is a common way to mitigate this. But developers often overlook vulnerabilities that can still leave communications open to a man-in-the-middle attack.
 

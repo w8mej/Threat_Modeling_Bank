@@ -38,7 +38,8 @@ Pull the repository to your threat modeling environment.  Open the templates / m
 ### TODO
 - Create additional templates for AWS, GCP, and similar providers
 - Create additional templates for the different compliance verticals - HealthCare, PCI, SOC, BSIMM, GDPR, and NIST
-- 
+- Do you have an idea?  Please submit an issue, pull request, or contact me
+
 ### Contact
 - john@syn.agency
 - https://securesql.info

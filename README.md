@@ -10,11 +10,14 @@ These templates and examples may be used out of the box and are user friendly.
 
 ### Outcomes
 o Design implications of a threat model
+
 o Coding constraints based on a threat model
 
 ### Features
 o Industry standard templates from leading vendors or service providers
+
 o Generally accepted definitions from standard setting bodies
+
 o The privilege to make mistakes and fail safely
 
 

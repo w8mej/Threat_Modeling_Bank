@@ -1,5 +1,5 @@
 
-![alt text](https://github.com/cloudsriseup/threatmodeling/raw/master/logo.png)
+![alt text](https://github.com/w8mej/threatmodeling/raw/master/logo.png)
 
 
 
